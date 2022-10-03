@@ -1,0 +1,157 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: #141518;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  background-image: linear-gradient(#202630, #191f29);
+  max-width: 400px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 10px;
+  height: 380px;
+}
+
+.star {
+  background-color: #272e38;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  img {
+    margin-left: 6px;
+    margin-top: 6px;
+  }
+}
+
+.title {
+  margin: 20px;
+  color: #f9fbff;
+}
+
+.description {
+  color: #7a808a;
+}
+
+.rating {
+  color: #7a808a;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  div {
+    background-color: #282e38;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    padding-top: 7px;
+    padding-left: 10px;
+    cursor: pointer;
+    &:hover {
+      background-color: #7a8392;
+      color: white;
+    }
+  }
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  background-color: #fc7612;
+  color: #ffd699;
+  border: none;
+  width: 300px;
+  height: 30px;
+  border-radius: 10px;
+  margin-top: 50px;
+  cursor: pointer;
+}
+
+button:active {
+  background-color: white;
+  color: #fc7612;
+}
+
+#postStage {
+  display: none;
+}
+
+.postStg {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  margin-top: 20px;
+}
+
+.img {
+  display: flex;
+  justify-content: center;
+}
+
+.desc2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  h2 {
+    color: white;
+    margin-top: 10px;
+  }
+  p {
+    color: #606670;
+    margin-top: 10px;
+  }
+}
+
+#rated {
+  width: 180px;
+  height: 30px;
+  border-radius: 10px;
+  background-color: #272e38;
+  color: #fc7612;
+}
+
+// # Front-end Style Guide
+
+// ## Layout
+
+// The designs were created to the following widths:
+
+// - Mobile: 375px
+// - Desktop: 1440px
+
+// ## Colors
+
+// ### Primary
+
+// - Orange: hsl(25, 97%, 53%)
+
+// ### Neutral
+
+// - White: hsl(0, 0%, 100%)
+// - Light Grey: hsl(217, 12%, 63%)
+// - Medium Grey: hsl(216, 12%, 54%)
+// - Dark Blue: hsl(213, 19%, 18%)
+// - Very Dark Blue: hsl(216, 12%, 8%)
+
+// ## Typography
+
+// ### Body Copy
+
+// - Font size (paragraph): 15px
+
+// ### Font
+
+// - Family: [Overpass](https://fonts.google.com/specimen/Overpass)
+// - Weights: 400, 700
